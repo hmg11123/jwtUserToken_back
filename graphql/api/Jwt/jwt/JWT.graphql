@@ -1,0 +1,18 @@
+type UserDetail {
+ isLogin: Boolean!
+ login_user: String!
+}
+
+type UserCookie {
+ _id: String!
+ name: String!
+ password: String!
+}
+
+type Mutation {
+ getUser(name: String!, password: String!): UserDetail!
+}
+
+type Query {
+ getCookie(cookieToken: String!): UserCookie!
+}

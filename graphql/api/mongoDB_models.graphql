@@ -1,0 +1,11 @@
+type User {
+ _id: ID!
+ name: String!
+ passWord: String!
+}
+
+type Post {
+ _id: ID!
+ title: String!
+ content: String!
+}
