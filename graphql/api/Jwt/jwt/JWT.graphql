@@ -11,6 +11,7 @@ type UserCookie {
 
 type Mutation {
  getUser(name: String!, password: String!): UserDetail!
+ #  getUser2(name: String!, password: String!): UserDetail!
 }
 
 type Query {
